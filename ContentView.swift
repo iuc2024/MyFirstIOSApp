@@ -14,7 +14,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             if isLoading {
-                Text("Loading...")
+                Text("Loading user...")
             } else if !errorMessage.isEmpty {
                 Text(errorMessage)
             } else {
